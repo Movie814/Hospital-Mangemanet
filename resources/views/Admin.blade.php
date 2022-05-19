@@ -3,19 +3,22 @@
 <h1 class="mt-4">DASH BOARD</h1>
 <ul class="breadcrumb mb-4  bg-gray ">
     <li class="breadcrumb-item  text-center"><a href="{{route('adminPage')}}">Dashboard</a></li>
-    <li class="breadcrumb-item active text-center">Static Navigation</li>
+    <li class="breadcrumb-item active text-center">Summery</li>
 </ul>
 <div class="card mb-4">
     <div class="card-body">
+      <style>
+        .font-large-2{font-size:3rem!important}.font-large-3{font-size:4rem!important}
+      </style>
        
 
       <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap-extended.min.css">
+    
 
       <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/fonts/simple-line-icons/style.min.css">
       <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/colors.min.css">
       <link rel="stylesheet" type="text/css" href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 <div class="grey-bg container-fluid">
   <section id="minimal-statistics">

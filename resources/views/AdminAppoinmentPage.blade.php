@@ -39,6 +39,8 @@
        
       </tbody>
     </table>
+    <a href="{{route('appoimentPdf')}}" class="btn btn-success bold"> PDF</a>
     </div>
+   
         
 @endsection
