@@ -15,22 +15,22 @@
   
   <!-- ** Plugins Needed for the Project ** -->
   <!-- bootstrap -->
-  <link rel="stylesheet" href=" {{asset("plugins/bootstrap/bootstrap.min.css")}}">
+  <link rel="stylesheet" href=" {{secure_asset("plugins/bootstrap/bootstrap.min.css")}}">
   <!-- Slick Carousel -->
-  <link rel="stylesheet" href="{{asset("plugins/slick/slick.css")}}">
-  <link rel="stylesheet" href=" {{asset("plugins/slick/slick-theme.css")}}">
+  <link rel="stylesheet" href="{{secure_asset("plugins/slick/slick.css")}}">
+  <link rel="stylesheet" href=" {{secure_asset("plugins/slick/slick-theme.css")}}">
   <!-- FancyBox -->
-  <link rel="stylesheet" href="{{asset("plugins/fancybox/jquery.fancybox.min.css")}}">
+  <link rel="stylesheet" href="{{secure_asset("plugins/fancybox/jquery.fancybox.min.css")}}">
   <!-- fontawesome -->
-  <link rel="stylesheet" href="{{asset("plugins/fontawesome/css/all.min.css ")}}">
+  <link rel="stylesheet" href="{{secure_asset("plugins/fontawesome/css/all.min.css ")}}">
   <!-- animate.css -->
-  <link rel="stylesheet" href="{{asset("plugins/animation/animate.min.css")}}">
-  <link rel="stylesheet" href="{{asset("plugins/jquery-ui/jquery-ui.css")}}">
+  <link rel="stylesheet" href="{{secure_asset("plugins/animation/animate.min.css")}}">
+  <link rel="stylesheet" href="{{secure_asset("plugins/jquery-ui/jquery-ui.css")}}">
   <!-- timePicker -->
-  <link rel="stylesheet" href="   {{asset("plugins/timePicker/timePicker.css ")}}">
+  <link rel="stylesheet" href="   {{secure_asset("plugins/timePicker/timePicker.css ")}}">
   
   <!-- Stylesheets -->
-  <link href="{{asset("css/style.css")}}" rel="stylesheet">
+  <link href="{{secure_asset("css/style.css")}}" rel="stylesheet">
   
   <!--Favicon-->
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -310,25 +310,25 @@
   
   
   <!-- jquery -->
-  <script src="{{asset("plugins/jquery.min.js ")}}"></script>
+  <script src="{{secure_asset("plugins/jquery.min.js ")}}"></script>
   <!-- bootstrap -->
-  <script src=" {{asset("plugins/bootstrap/bootstrap.min.js")}}"></script>
+  <script src=" {{secure_asset("plugins/bootstrap/bootstrap.min.js")}}"></script>
   <!-- Slick Slider -->
-  <script src=" {{asset("plugins/slick/slick.min.js")}}"></script>
-  <script src=" {{asset("plugins/slick/slick-animation.min.js")}}"></script>
+  <script src=" {{secure_asset("plugins/slick/slick.min.js")}}"></script>
+  <script src=" {{secure_asset("plugins/slick/slick-animation.min.js")}}"></script>
   <!-- FancyBox -->
-  <script src=" {{asset("plugins/fancybox/jquery.fancybox.min.js")}}" defer></script>
+  <script src=" {{secure_asset("plugins/fancybox/jquery.fancybox.min.js")}}" defer></script>
   <!-- Google Map -->
-  <script src=" {{asset("https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU")}}" defer></script>
-  <script src=" {{asset("plugins/google-map/gmap.js")}}" defer></script>
+  <script src=" {{secure_asset("https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU")}}" defer></script>
+  <script src=" {{secure_asset("plugins/google-map/gmap.js")}}" defer></script>
   
   <!-- jquery-ui -->
-  <script src=" {{asset("plugins/jquery-ui/jquery-ui.js")}}" defer></script>
+  <script src=" {{secure_asset("plugins/jquery-ui/jquery-ui.js")}}" defer></script>
   <!-- timePicker -->
-  <script src=" {{asset("plugins/timePicker/timePicker.js")}}" defer></script>
+  <script src=" {{secure_asset("plugins/timePicker/timePicker.js")}}" defer></script>
   
   <!-- script js -->
-  <script src=" {{asset("js/script.js")}}"></script>
+  <script src=" {{secure_asset("js/script.js")}}"></script>
   </body>
   
   </html>
