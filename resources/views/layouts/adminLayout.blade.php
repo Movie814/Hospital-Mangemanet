@@ -7,7 +7,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Hospital Management Admin panel</title>
-        <link href="{{asset('admincss/styles.css')}}" rel="stylesheet" />
+        <link href="{{secure_asset('admincss/styles.css')}}" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -164,6 +164,6 @@
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="   {{asset('adminjs/scripts.js')}}"></script>
+        <script src="   {{secure_asset('adminjs/scripts.js')}}"></script>
     </body>
 </html>
