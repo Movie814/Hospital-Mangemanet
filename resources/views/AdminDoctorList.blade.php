@@ -25,7 +25,7 @@
           <td>{{$item->img}}</td>
        
           <td>
-               <p><a href="{{url('/admin/doctor/list'.$item->id)}}" class=" btn btn-danger d-grid ">cancel</a></p>
+               <p><a href="{{url('/admin/doctor/list/'.$item->id)}}" class=" btn btn-danger d-grid ">cancel</a></p>
         </td>
         </tr>
         @endforeach
