@@ -56,7 +56,7 @@ Route::get('/admin/service/delete/{id}',[adminServiceController::class, 'deleteA
 Route::get('/admin/doctor/add',[adminDoctorController::class, 'adminDoctor'])->name('adminDoctor')->middleware(['auth']);
 Route::post('/admin/doctor/add',[adminDoctorController::class, 'adminDoctorStore'])->name('adminDoctorStore');
 Route::get('/admin/doctor/list',[adminDoctorController::class, 'adminDoctorShow'])->name('adminDoctorShow')->middleware(['auth']);
-Route::get('/admin/doctor/list',[adminDoctorController::class, 'deletedoctor'])->name('deletedoctor')->middleware(['auth']);
+Route::get('/admin/doctor/list/{id}',[adminDoctorController::class, 'deletedoctor'])->name('deletedoctor')->middleware(['auth']);
 Route::get('/admin/gallery/media',[adminCollectedMediacontroller::class, 'deleteCollectedMedia'])->name('deleteCollectedMedia')->middleware(['auth']);
 Route::get('/admin/gallery/media',[adminCollectedMediacontroller::class, 'showCollectedMediaPage'])->name('showCollectedMediaPage')->middleware(['auth']);
 Route::post('/admin/gallery/media',[adminCollectedMediacontroller::class, 'addCollectedMedia'])->name('addCollectedMedia');
