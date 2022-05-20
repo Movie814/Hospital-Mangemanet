@@ -32,9 +32,9 @@ public function  adminDoctorShow(){
         return redirect()->back();
     }
     public function deletedoctor($id){
-        $cancelAppoinmentData=doctorController::find($id);
-        $cancelAppoinmentData->delete();
-       return redirect()->back();
+        $cancelDoctorData=doctorController::find($id);
+        $cancelDoctorData->delete();
+       return redirect()->route('adminDoctor');
 
 
     }
