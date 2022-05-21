@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="{{secure_asset("plugins/jquery-ui/jquery-ui.css")}}">
   <!-- timePicker -->
   <link rel="stylesheet" href="   {{secure_asset("plugins/timePicker/timePicker.css ")}}">
+ 
   
   <!-- Stylesheets -->
   <link href="{{secure_asset("css/style.css")}}" rel="stylesheet">
@@ -318,6 +319,7 @@
   <script src=" {{secure_asset("plugins/slick/slick-animation.min.js")}}"></script>
   <!-- FancyBox -->
   <script src=" {{secure_asset("plugins/fancybox/jquery.fancybox.min.js")}}" defer></script>
+ 
   <!-- Google Map -->
   <script src=" {{secure_asset("https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU")}}" defer></script>
   <script src=" {{secure_asset("plugins/google-map/gmap.js")}}" defer></script>

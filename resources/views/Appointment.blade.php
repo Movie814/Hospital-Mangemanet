@@ -48,7 +48,7 @@
               </div>
               <div class="col-md-6">
                 <div class="form-group">
-                  <input class="form-control" type="text" name="phone" placeholder="Phone" required>
+                  <input class="form-control" type="number" name="phone" placeholder="Phone" required>
                 </div>
                 <div class="form-group">
                   <input class="form-control" type="text" name="date" placeholder="Date" required id="datepicker" autocomplete="off">

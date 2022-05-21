@@ -17,11 +17,11 @@
             
               <div  class="mt-3">
                   <label for="#"><h5><b>Title</b></h5></label>
-                  <input type="text" name="title" class=" form-control">
+                  <input type="text" name="title" class=" form-control" required>
               </div>
               <div >
                 <label for="#"><h5><b>Video Link</b></h5></label>
-                <input type="text" name="link" class=" form-control">
+                <input type="text" name="link" class=" form-control" required>
             </div>
       
             </div>

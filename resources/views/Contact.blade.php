@@ -72,7 +72,7 @@
             </div>
             <!-- phone -->
             <div class="col-lg-12">
-              <input type="text" class="form-control main" name="phone" placeholder="Phone" required>
+              <input type="number" class="form-control main" name="phone" placeholder="Phone" required>
             </div>
             <!-- message -->
             <div class="col-lg-12">

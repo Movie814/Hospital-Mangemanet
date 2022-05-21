@@ -16,16 +16,16 @@
             <div class="form-group col-md-3 mt-5 ">
                 <div >
                     <label for="#"><h5><b>Select Iamge</b></h5></label>
-                    <input type="file" name="img" class=" btn btn-success">
+                    <input type="file" name="img" class=" btn btn-success" required>
                 </div>
             
               <div  class="mt-3">
                   <label for="#"><h5><b>Name</b></h5></label>
-                  <input type="text" name="name" class=" form-control">
+                  <input type="text" name="name" class=" form-control" required>
               </div>
               <div  class="mt-3">
                   <label for="#"><h5><b>Discription</b></h5></label>
-                  <textarea class="form-control"  name="bio" rows="4"></textarea>
+                  <textarea class="form-control"  name="bio" rows="4" required></textarea>
               </div>
       
             </div>

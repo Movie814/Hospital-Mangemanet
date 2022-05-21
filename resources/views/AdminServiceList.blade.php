@@ -39,8 +39,8 @@
         </table>
       </div>
     </div>
-
-      {{-- <script src="https://kit.fontawesome.com/ae6e4b2cc8.js" crossorigin="anonymous"></script> --}}
+{{-- 
+      <script src="https://kit.fontawesome.com/ae6e4b2cc8.js" crossorigin="anonymous"></script> --}}
 </div>
 
 @endsection

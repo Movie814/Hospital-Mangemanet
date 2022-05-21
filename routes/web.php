@@ -47,19 +47,27 @@ Route::get('/ourDoctors',[ourDoctorsController::class, 'ourDoctorsPage'])->name(
 
 // admin
 Route::get('/admin',[adminController::class, 'adminPage'])->name('adminPage')->middleware(['auth']);
+
+
+// service
 Route::get('/admin/service/create',[adminServiceController::class, 'adminServiceCreate'])->name('adminServiceCreate')->middleware(['auth']);
 Route::post('/admin/service/create',[adminServiceController::class, 'storeAdminServiceCreate'])->name('storeAdminServiceCreate');
 Route::get('/admin/service/list',[adminServiceController::class, 'showAdminServiceList'])->name('showAdminServiceList')->middleware(['auth']);
 Route::get('/admin/service/edit/{id}',[adminServiceController::class, 'editAdminServiceList'])->name('editAdminServiceList')->middleware(['auth']);
 Route::put('/admin/service/edit/{id}',[adminServiceController::class, 'updateAdminServiceListStore'])->name('updateAdminServiceListStore');
 Route::get('/admin/service/delete/{id}',[adminServiceController::class, 'deleteAdminServiceList'])->name('deleteAdminServiceList')->middleware(['auth']);
+// ourdoctor
+
 Route::get('/admin/doctor/add',[adminDoctorController::class, 'adminDoctor'])->name('adminDoctor')->middleware(['auth']);
 Route::post('/admin/doctor/add',[adminDoctorController::class, 'adminDoctorStore'])->name('adminDoctorStore');
 Route::get('/admin/doctor/list',[adminDoctorController::class, 'adminDoctorShow'])->name('adminDoctorShow')->middleware(['auth']);
 Route::get('/admin/doctor/list/{id}',[adminDoctorController::class, 'deletedoctor'])->name('deletedoctor')->middleware(['auth']);
-Route::get('/admin/gallery/media',[adminCollectedMediacontroller::class, 'deleteCollectedMedia'])->name('deleteCollectedMedia')->middleware(['auth']);
+// media
 Route::get('/admin/gallery/media',[adminCollectedMediacontroller::class, 'showCollectedMediaPage'])->name('showCollectedMediaPage')->middleware(['auth']);
 Route::post('/admin/gallery/media',[adminCollectedMediacontroller::class, 'addCollectedMedia'])->name('addCollectedMedia');
+Route::get('/admin/gallery/media/{id}',[adminCollectedMediacontroller::class, 'deleteCollectedMedia'])->name('deleteCollectedMedia')->middleware(['auth']);
+
+// appoinment
 Route::get('/admin/appoinment',[adminAppoinmentController::class, 'showAppoinmentData'])->name('showAppoinmentData')->middleware(['auth']);
 Route::get('/admin/appoinment/cancel/{id}',[adminAppoinmentController::class, 'cancelAppoinment'])->name('cancelAppoinment')->middleware(['auth']);
 Route::get('/pdf/data',[pdfController::class,'gPdf'])->name('appoimentPdf')->middleware(['auth']);

@@ -9,15 +9,15 @@
             <div class="form-group col-md-3 mt-5 ">
                 <div >
                     <label for="#"><h5><b>Select Iamge</b></h5></label>
-                    <input type="file" name="img" class=" btn btn-success">
+                    <input type="file" name="img" class=" btn btn-success" required>
                 </div>
               <div >
                   <label for="#"><h5><b>Sub-tiltle</b></h5></label>
-                  <input type="text" name="subtitle" class=" form-control">
+                  <input type="text" name="subtitle" class=" form-control" required>
               </div>
               <div  class="mt-3">
                   <label for="#"><h5><b>Title</b></h5></label>
-                  <input type="text" name="title" class=" form-control">
+                  <input type="text" name="title" class=" form-control" required>
               </div>
               <div  class="mt-3">
                   <label for="#"><h5><b>Discription</b></h5></label>
